@@ -14,7 +14,9 @@ URL shortening is the process of converting long URLs into shorter, more managea
 - Secure MongoDB integration for data storage.
 
 ## Usage
+
 ### API Endpoints
-- POST /url: Shorten a long URL.
-- GET /:shortId: Redirect to the original URL associated with the provided short ID.
-- GET /url/analytics/:shortId: Retrieve statistics for a specific short ID.
+
+- `POST /url`: Shorten a long URL.
+- `GET /:shortId`: Redirect to the original URL associated with the provided short ID.
+- `GET /url/analytics/:shortId`: Retrieve statistics for a specific short ID.
